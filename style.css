@@ -1,0 +1,46 @@
+h1{
+    width: 16cm;
+    text-align: center;
+}
+.main-container{
+    margin:0 30% ;
+    display: flex;
+    flex-direction: column;
+    gap: 1cm;
+    justify-content: center;
+}
+#container{
+    display: grid;
+    width: 14cm;
+    height: 14cm;
+    justify-content: center;
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1cm;
+    align-items: center;
+}
+.cell{
+    border: 0.5px solid black;
+    width: 1fr;
+    height: 1fr;
+}
+button,
+input{
+    width: 3cm;
+    height: 1cm;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    background-color: antiquewhite;
+    font-size: 18px;
+}
+label{
+    font-size: 18px;
+}
+p{
+    color: red;
+    font-size: 18px;
+}
+
